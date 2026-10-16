@@ -8,10 +8,10 @@ Live site: https://baumi-x.github.io
 
 ## Structure
 
-- `index.html` – Landing page: short bilingual (DE/EN) introduction to
-  Baumix and the upcoming game **GripRush** (neon cyberpunk endless
-  runner, currently "coming soon" – no store link yet), contact email, and
-  a link to the privacy policy.
+- `index.html` – Landing page: bilingual (DE/EN) introduction to Baumix and the game
+  **GripRush** (neon cyberpunk endless runner, live on Google Play since v1.17.8,
+  with Play Store link), screenshot gallery, "What's new" list, contact email,
+  and a link to the privacy policy.
 - `privacy.html` – The canonical GripRush privacy policy (DE/EN), content
   unchanged from the previous single-page version. Linked from the Google
   Play Store listing.
