@@ -204,3 +204,15 @@ code {
     gap: 1rem;
   }
 }
+
+/* Link zum Play Store */
+.play-link {
+  display: inline-block;
+  padding: 0.55rem 1.1rem;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #22d3ee, #d946ef);
+  color: #0b0f14;
+  font-weight: 700;
+  text-decoration: none;
+}
+.play-link:hover { filter: brightness(1.1); }
