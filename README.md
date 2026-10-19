@@ -8,13 +8,15 @@ Live site: https://baumi-x.github.io
 
 ## Structure
 
-- `index.html` – Landing page: bilingual (DE/EN) introduction to Baumix and the game
-  **GripRush** (neon cyberpunk endless runner, live on Google Play since v1.17.8,
-  with Play Store link), screenshot gallery, "What's new" list, contact email,
-  and a link to the privacy policy.
-- `privacy.html` – The canonical GripRush privacy policy (DE/EN), content
-  unchanged from the previous single-page version. Linked from the Google
-  Play Store listing.
+- `index.html` – Landing page: bilingual (DE/EN) introduction to Baumix and both games:
+  **GripRush** (live on Google Play, with store link and screenshot gallery) and
+  **Evo Command** (real-time strategy, in development, release planned), "What's
+  new" list, contact email, and links to both privacy policies.
+- `privacy.html` – The canonical GripRush privacy policy (DE/EN), linked from the
+  Google Play Store listing of GripRush. Do not change the URL.
+- `privacy-evo-command.html` – The Evo Command privacy policy (DE/EN), for the
+  Google Play Store listing of Evo Command (package `com.baumix.evocommand`).
+  Both policy pages have a game switcher at the top.
 - `impressum.html` – Bilingual (DE/EN) legal notice / imprint (Austrian
   § 5 ECG), with the responsible person's name/address, link disclaimer,
   and EU ODR dispute-resolution notice. Not linked from the homepage
@@ -42,8 +44,10 @@ apex domain `https://baumi-x.github.io` (no path suffix).
 
 - **Developer website** (Play Console): the site root,
   https://baumi-x.github.io
-- **Privacy policy** (Play Store listing): `privacy.html`,
+- **Privacy policy GripRush** (Play Store listing): `privacy.html`,
   https://baumi-x.github.io/privacy.html
+- **Privacy policy Evo Command** (Play Store listing): `privacy-evo-command.html`,
+  https://baumi-x.github.io/privacy-evo-command.html
 
 The source draft of the privacy policy (with editorial history) is
 maintained in the main GripRush game repository at
