@@ -44,7 +44,7 @@
     <p>Evo Command erhebt keine personenbezogenen Daten zur Identifizierung von
     Nutzern und überträgt keine Daten an den Entwickler oder Dritte. Spielstand,
     Profil und Einstellungen werden ausschließlich lokal auf deinem Gerät
-    (Android oder Windows) gespeichert. Das Spiel läuft offline und benötigt keine besonderen
+    gespeichert. Das Spiel läuft offline und benötigt keine besonderen
     Geräteberechtigungen. Es gibt kein Nutzerkonto, kein Tracking und keine
     Werbe-SDKs.</p>
 
@@ -60,8 +60,8 @@
     </p>
 
     <h2>Welche Daten werden gespeichert?</h2>
-    <p>Evo Command speichert folgende Daten lokal auf deinem Gerät (Android: im privaten
-    App-Speicher der App; Windows: im Ordner <code>%APPDATA%\Godot\app_userdata\Evo Command</code>):</p>
+    <p>Evo Command speichert folgende Daten lokal auf deinem Gerät (im privaten
+    App-Speicher der App):</p>
     <ul>
       <li>Laufender Spielstand (aktuelle Partie, damit du sie fortsetzen kannst)</li>
       <li>Einstellungen (Sprache, Grafikqualität, Ton an/aus, Lautstärke, Anzeige der Leistungswerte)</li>
@@ -95,10 +95,9 @@
       <li>Online-Funktionen: keine</li>
       <li>Cloud-Speicherung durch den Entwickler: keine (zur optionalen Android-Sicherung siehe unten)</li>
     </ul>
-    <p>Hinweis zu Testversionen: Vor der Veröffentlichung werden Testversionen an
-    eingeladene Tester verteilt, auf Android über Firebase App Distribution oder den
-    geschlossenen Test bei Google Play, unter Windows über einen Download-Link. Das
-    sind reine Verteilkanäle des Entwicklers und kein Bestandteil des Spiels; die App
+    <p>Hinweis zu Testversionen: Vor der Veröffentlichung werden Testversionen
+    über Firebase App Distribution an eingeladene Tester verteilt. Das ist ein
+    reiner Verteilkanal des Entwicklers und kein Bestandteil des Spiels; die App
     selbst enthält keinen Firebase-Code.</p>
     <p>Geplant ist ein Mehrspieler-Modus im lokalen Netzwerk (z. B. im selben
     WLAN): Ein Spieler hostet die Partie, die anderen treten bei. Dabei werden
@@ -119,26 +118,21 @@
     <h2>Berechtigungen</h2>
     <p>Evo Command benötigt keine besonderen Geräteberechtigungen (kein Zugriff auf
     Kamera, Mikrofon, Kontakte, Standort, Dateisystem außerhalb des eigenen
-    App-Speichers). Die Android-App fordert keine Berechtigungen an. Die Windows-Version
-    benötigt keine besonderen Rechte und läuft ohne Administratorrechte.</p>
+    App-Speichers).</p>
 
-    <h2>Android-Sicherung (optional, nur Android)</h2>
+    <h2>Android-Sicherung (optional)</h2>
     <p>Dein Spielstand wird lokal auf deinem Gerät gespeichert, das Spiel läuft
     vollständig offline. Wenn die Android-Sicherung auf deinem Gerät aktiviert
     ist, kann Android zusätzlich eine Kopie des Spielstands (laufende Partie,
     Profil, Statistik, Vorlagen, Einstellungen) in dein eigenes Google-Konto
     legen und bei einer Neuinstallation oder auf einem neuen Gerät
     wiederherstellen. Der Entwickler hat darauf keinen Zugriff. Du kannst die
-    Sicherung in den Android-Systemeinstellungen jederzeit ausschalten. Unter Windows gibt
-    es keine Sicherung durch Android; Sicherungen, die Windows oder andere Programme von
-    deinen Dateien anlegen, liegen in deiner Verantwortung.</p>
+    Sicherung in den Android-Systemeinstellungen jederzeit ausschalten.</p>
 
     <h2>Datenlöschung</h2>
     <p>Da alle Daten ausschließlich lokal gespeichert werden, kannst du sie
-    jederzeit selbst löschen: unter Android über die Android-Systemeinstellungen (App-Daten
-    löschen) oder durch Deinstallieren der App, unter Windows durch Löschen des Ordners
-    <code>%APPDATA%\Godot\app_userdata\Evo Command</code> (das Deinstallieren entfernt den
-    Spielstand nicht). Es gibt
+    jederzeit selbst löschen, indem du die App-Daten von Evo Command über die
+    Android-Systemeinstellungen löschst oder die App deinstallierst. Es gibt
     keine serverseitig gespeicherten Daten, die separat gelöscht werden müssten.</p>
 
     <h2>Kinder</h2>
@@ -164,7 +158,7 @@
     <h3>Summary</h3>
     <p>Evo Command does not collect any personal data for identifying users and
     does not transmit any data to the developer or third parties. Game
-    progress, profile, and settings are stored locally on your device only (Android or Windows). The
+    progress, profile, and settings are stored locally on your device only. The
     game runs offline and does not require any special device permissions. There
     is no user account, no tracking, and no advertising SDKs.</p>
 
@@ -180,8 +174,8 @@
     </p>
 
     <h2>What data is stored?</h2>
-    <p>Evo Command stores the following data locally on your device (Android: in the
-    app's private storage; Windows: in the folder <code>%APPDATA%\Godot\app_userdata\Evo Command</code>):</p>
+    <p>Evo Command stores the following data locally on your device (in the
+    app's private storage):</p>
     <ul>
       <li>Current game save (the match in progress, so you can continue it)</li>
       <li>Settings (language, graphics quality, sound on/off, volume, performance display)</li>
@@ -215,10 +209,10 @@
       <li>Online features: none</li>
       <li>Cloud storage by the developer: none (for the optional Android backup see below)</li>
     </ul>
-    <p>Note on test versions: before release, test versions are distributed to invited
-    testers, on Android through Firebase App Distribution or closed testing on Google
-    Play, on Windows through a download link. These are developer-side distribution
-    channels only and not part of the game; the app itself contains no Firebase code.</p>
+    <p>Note on test versions: before release, test versions are distributed to
+    invited testers through Firebase App Distribution. This is a developer-side
+    distribution channel only and not part of the game; the app itself
+    contains no Firebase code.</p>
     <p>A multiplayer mode on the local network (e.g. the same Wi-Fi) is
     planned: one player hosts the match and the others join. Game data is
     then exchanged directly between the participating devices on the local
@@ -236,25 +230,20 @@
     <h2>Permissions</h2>
     <p>Evo Command does not require any special device permissions (no access to
     camera, microphone, contacts, location, or file system outside its own
-    app storage). The Android app requests no permissions. The Windows version needs
-    no special rights and runs without administrator rights.</p>
+    app storage).</p>
 
-    <h2>Android backup (optional, Android only)</h2>
+    <h2>Android backup (optional)</h2>
     <p>Your game progress is stored locally on your device, and the game works
     fully offline. If Android backup is enabled on your device, Android may
     additionally save a copy of your progress (current match, profile,
     statistics, templates, settings) to your own Google account and restore it
     after a reinstall or on a new device. The developer has no access to it. You
-    can turn the backup off at any time in your Android system settings. On Windows there
-    is no Android backup; backups that Windows or other programs make of your files are
-    your own responsibility.</p>
+    can turn the backup off at any time in your Android system settings.</p>
 
     <h2>Data deletion</h2>
     <p>Since all data is stored locally only, you can delete it at any time
-    yourself: on Android by clearing the app data in the Android system settings or by
-    uninstalling the app, on Windows by deleting the folder
-    <code>%APPDATA%\Godot\app_userdata\Evo Command</code> (uninstalling does not remove
-    your save data). There is no server-side stored data that would
+    yourself by clearing Evo Command's app data via Android system settings or
+    by uninstalling the app. There is no server-side stored data that would
     need to be deleted separately.</p>
 
     <h2>Children</h2>
