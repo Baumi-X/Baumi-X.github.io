@@ -23,6 +23,8 @@ Live site: https://baumi-x.github.io
   content, only via the shared nav/footer.
 - `styles.css` – Shared dark-theme stylesheet (header/nav, language
   switch, footer) used by all pages.
+- `favicon.ico`, `assets/icon-192.png`, `assets/apple-touch-icon.png` – Favicon (BX logo) in all pages.
+- `assets/screenshots/` – GripRush screenshots and artwork for the gallery on the landing page.
 - `assets/dev-header.jpg` – Optimized hero/header banner shown at the top
   of the landing page (Baumix "BX" logo + "BAUMIX / GAME STUDIO" on a neon
   cyan/magenta grid background). Resized from the 4096×2304 source asset
@@ -53,4 +55,8 @@ The source draft of the privacy policy (with editorial history) is
 maintained in the main GripRush game repository at
 `Griprush/PRIVACY_POLICY_DRAFT.md`. When that draft changes, update
 `privacy.html` here to match and keep the "Last updated" date in sync.
+
+If the data behavior of Evo Command changes (permissions, backup, account,
+network, platforms), update `privacy-evo-command.html` and its "Last updated"
+date in the same change.
 
